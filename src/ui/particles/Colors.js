@@ -3,7 +3,7 @@ const Colors = {
   // brand_light: "#AF85CD",
   // neutral_grey: "#9F9F9F",
   // darker_grey: "rgba(0, 0, 0, 0.5)"
-  white: '#FFF',
+  white: '#FFFFFF',
   purple: '#9146FF'
 }
 

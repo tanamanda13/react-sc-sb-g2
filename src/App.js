@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import StreamerName from './ui/molecules/StreamerName'
 
-import Fonts from './ui/particles/Fonts'
+// import Fonts from './ui/particles/Fonts'
 
 const AppWrapper = styled.div`
   /* width: 375px; */
@@ -15,7 +15,7 @@ const AppWrapper = styled.div`
 export default function App () {
   return (
     <AppWrapper>
-      <Fonts />
+      {/* <Fonts /> */}
       <StreamerName name='Ponce' />
     </AppWrapper>
   )

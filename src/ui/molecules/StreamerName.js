@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import Colors from '../particles/Colors'
 import Name from '../atoms/Name'
 import IconCheck from '../atoms/IconCheck'
+import Fonts from '../particles/Fonts'
 
 const StreamerNameWrapper = styled.div`
   display: flex;
@@ -15,6 +16,7 @@ const StreamerName = props => {
 
   return (
     <StreamerNameWrapper>
+      <Fonts />
       <Name>{name}</Name>
       <IconCheck />
     </StreamerNameWrapper>
