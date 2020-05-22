@@ -1,7 +1,10 @@
-React - Storybook
+# TP React - Storybook
+======
 
-Composant i
+*Educational purpose*
 
-Fiona Roux
-Donaël WALTER
-Amanda TAN
+Composant i - streamer name
+
+Fiona Roux (développeur)  
+Donaël WALTER (designer)  
+Amanda TAN (développeur)
