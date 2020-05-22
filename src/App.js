@@ -1,9 +1,8 @@
-import React from "react";
-import styled from 'styled-components';
-// import Badge, { colors } from "./ui/atoms/Badge";
-import Name from './ui/atoms/Name';
+import React from 'react'
+import styled from 'styled-components'
+import StreamerName from './ui/molecules/StreamerName'
 
-import Fonts from './ui/particles/Fonts';
+import Fonts from './ui/particles/Fonts'
 
 const AppWrapper = styled.div`
   /* width: 375px; */
@@ -11,19 +10,13 @@ const AppWrapper = styled.div`
   height: 744px;
   background-color: black;
   padding: 16px;
-`;
+`
 
-export default function App() {
-      return (
-            // <div className="App">
-            //     <Badge text="IRL" color={colors.purple}/>
-            //     <Badge text="IRL" color={colors.grey}/>
-            // </div>
-
-            <AppWrapper>
-                  <Fonts />
-                        <Name>Ponce</Name>
-               
-            </AppWrapper>
-      );
+export default function App () {
+  return (
+    <AppWrapper>
+      <Fonts />
+      <StreamerName name='Ponce' />
+    </AppWrapper>
+  )
 }
