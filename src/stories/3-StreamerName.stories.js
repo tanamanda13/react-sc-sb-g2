@@ -23,7 +23,7 @@ export const Green = () => (
 )
 
 export const LightMode = () => (
-  <StreamerName name="Ponce" color={Colors.purple}></StreamerName>
+  <StreamerName name="Ponce" color={Colors.purple} nameColor={Colors.dark}></StreamerName>
 )
 
 LightMode.story = {
