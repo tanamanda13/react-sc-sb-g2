@@ -29,10 +29,21 @@ export const LightMode = () => (
   <StreamerName name={text("Label", "Name")} color={Colors.purple} nameColor={Colors.dark} text={text("Label", "Name")}></StreamerName>
 )
 
+Green.story = {
+  parameters: { 
+    docs: {
+      storyDescription: `Other color test for icon.`,
+    },
+  },
+};
+
 LightMode.story = {
   parameters: {
     backgrounds: [
       { name: 'lightMode', value: '#FFFFFF' },
     ],
+    docs: {
+      storyDescription: `Streamer's name in light mode context.`,
+    },
   },
 };
