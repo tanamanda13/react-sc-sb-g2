@@ -7,7 +7,7 @@ import { withKnobs, text } from "@storybook/addon-knobs";
 export default {
   title: 'StreamerName',
   parameters: {
-    componentSubtitle: "Streamer's name display in streamer profil",
+    componentSubtitle: "Streamer's name displayed in streamer profil",
     backgrounds: [
       { name: 'default', value: '#000000', default: true },
       { name: 'lightMode', value: '#FFFFFF' },
