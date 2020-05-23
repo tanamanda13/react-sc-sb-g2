@@ -5,7 +5,7 @@ import Fonts from '../ui/particles/Fonts';
 import { withKnobs, text } from "@storybook/addon-knobs";
 
 export default {
-  title: 'StreamerName',
+  title: 'Streamer Name',
   parameters: {
     componentSubtitle: "Streamer's name display in streamer profil",
     backgrounds: [
