@@ -18,15 +18,15 @@ export default {
 }
 
 export const Default = () => (
-  <StreamerName name={text("Label", "Name")} color={Colors.purple}></StreamerName>
+  <StreamerName name={text("Text", "Ponce")} color={Colors.purple}></StreamerName>
 )
 
 export const Green = () => (
-  <StreamerName name={text("Label", "Name")} color={Colors.green} text={text("Label", "Name")}></StreamerName>
+  <StreamerName name={text("Text", "Ponce")} color={Colors.green}></StreamerName>
 )
 
 export const LightMode = () => (
-  <StreamerName name={text("Label", "Name")} color={Colors.purple} nameColor={Colors.dark} text={text("Label", "Name")}></StreamerName>
+  <StreamerName name={text("Text", "Ponce")} color={Colors.purple} nameColor={Colors.dark}></StreamerName>
 )
 
 Green.story = {
