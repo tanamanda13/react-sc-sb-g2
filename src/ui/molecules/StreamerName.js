@@ -12,19 +12,19 @@ const StreamerNameWrapper = styled.div`
 `
 
 const StreamerName = props => {
-  const { name } = props
+  const { name, color } = props
 
   return (
     <StreamerNameWrapper>
       <Fonts />
       <Name>{name}</Name>
-      <IconCheck />
+      <IconCheck color={color} />
     </StreamerNameWrapper>
   )
 }
 
 StreamerName.protoTypes = {
-  children: PropTypes.string
+  name: PropTypes.string
 }
 
 export default StreamerName

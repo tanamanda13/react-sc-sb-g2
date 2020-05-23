@@ -4,7 +4,8 @@ const Colors = {
   // neutral_grey: "#9F9F9F",
   // darker_grey: "rgba(0, 0, 0, 0.5)"
   white: '#FFFFFF',
-  purple: '#9146FF'
+  purple: '#9146FF',
+  green: '#66ff33'
 }
 
 export default Colors

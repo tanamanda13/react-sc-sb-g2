@@ -15,11 +15,15 @@ export default {
 }
 
 export const Default = () => (
-  <StreamerName name="Ponce"></StreamerName>
+  <StreamerName name="Ponce" color={Colors.purple}></StreamerName>
+)
+
+export const Green = () => (
+  <StreamerName name="Ponce" color={Colors.green}></StreamerName>
 )
 
 export const LightMode = () => (
-  <StreamerName name="Ponce"></StreamerName>
+  <StreamerName name="Ponce" color={Colors.purple}></StreamerName>
 )
 
 LightMode.story = {
