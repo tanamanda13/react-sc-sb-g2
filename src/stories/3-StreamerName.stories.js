@@ -2,28 +2,31 @@ import React from 'react'
 import StreamerName from '../ui/molecules/StreamerName'
 import Colors from '../ui/particles/Colors'
 import Fonts from '../ui/particles/Fonts';
+import { withKnobs, text } from "@storybook/addon-knobs";
 
 export default {
   title: 'StreamerName',
   parameters: {
+    componentSubtitle: "Custom streamer's name display in streamer profil",
     backgrounds: [
       { name: 'default', value: '#000000', default: true },
       { name: 'lightMode', value: '#FFFFFF' },
     ]
   },
-  component: StreamerName
+  component: StreamerName,
+  decorators: [withKnobs]
 }
 
 export const Default = () => (
-  <StreamerName name="Ponce" color={Colors.purple}></StreamerName>
+  <StreamerName name={text("Label", "Name")} color={Colors.purple}></StreamerName>
 )
 
 export const Green = () => (
-  <StreamerName name="Ponce" color={Colors.green}></StreamerName>
+  <StreamerName name={text("Label", "Name")} color={Colors.green} text={text("Label", "Name")}></StreamerName>
 )
 
 export const LightMode = () => (
-  <StreamerName name="Ponce" color={Colors.purple} nameColor={Colors.dark}></StreamerName>
+  <StreamerName name={text("Label", "Name")} color={Colors.purple} nameColor={Colors.dark} text={text("Label", "Name")}></StreamerName>
 )
 
 LightMode.story = {
