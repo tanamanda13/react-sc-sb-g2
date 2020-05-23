@@ -4,7 +4,6 @@ import StreamerName from './ui/molecules/StreamerName'
 
 
 const AppWrapper = styled.div`
-  /* width: 375px; */
   width: 100vw;
   height: 744px;
   background-color: black;
